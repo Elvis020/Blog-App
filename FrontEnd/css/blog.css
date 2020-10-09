@@ -103,9 +103,10 @@ header {
 
     .post__image {
         flex: 40%;
-        background-image: url(../assets/one.png);
+        /* background-image: url(../assets/one.png); */
         background-size: cover;
         background-position: center;
+        /* overflow: hidden; */
     }
 
     .post__text {

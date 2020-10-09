@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "1581461442206",
         "title": "This is a new blog post",
         "content": "This is the content",
@@ -8,22 +7,22 @@
     },
     {
         "id": "1581377760891",
-        "title": "This is a new blog post",
-        "content": "This is the content",
+        "title": "My first Job as a JS Developer",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti laborum ab autem architecto nihil quam.Amet consectetur adipisicing elit.",
         "post_image": "images/25.jpg",
         "added_date": "1581377760891"
     },
     {
         "id": "1581376324100",
-        "title": "This is a new blog post",
-        "content": "This is the content",
+        "title": "I love Javascript",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, unde neque? Animi, quis porro.",
         "post_image": "images/36.jpg",
         "added_date": "1581376324100"
     },
     {
         "id": "1581375207401",
-        "title": "This is a new blog post",
-        "content": "This is the content",
+        "title": "Do you know that Haskell is a language 😕?",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, unde neque? Animi, quis porro.",
         "post_image": "images/05.jpg",
         "added_date": "1581375207401"
     }
