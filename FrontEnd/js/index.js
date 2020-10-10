@@ -23,16 +23,20 @@ const buildPosts = (blogPosts) => {
     let blogPostContent = "";
     for (blogPost of blogPosts) {
         const postDate = new Date(parseInt(blogPost.added_date)).toDateString();
-        const postImage = `${BASE_URL}/${blogPost.post_image}`
+        const postImage = `${BASE_URL}/${blogPost.post_image}`;
+        const postLink = `/FrontEnd/blog_post.html?id=${blogPost.id}`
         blogPostContent += `
-        <div class="post">
-            <div class="post__image" style="background-image:url(${BASE_URL}/${blogPost.post_image})"></div>
-            <div class="post__content">
-                <div class="post__date"> ${postDate} </div> 
-                <div class="post__title"><h4>${blogPost.title}</h4></div> 
-                <div class="post__text"> ${blogPost.content} </div>
+        <a class="post__link" href="${postLink}">
+            <div class="post">
+                <div class ="post__image"
+                style="background-image:url(${postImage})"> </div>
+                <div class="post__content">
+                    <div class="post__date"> ${postDate} </div> 
+                    <div class="post__title"><h4>${blogPost.title}</h4></div> 
+                    <div class="post__text"> ${blogPost.content} </div>
+                </div>
             </div>
-        </div>
+        </a>
         `
     };
 
