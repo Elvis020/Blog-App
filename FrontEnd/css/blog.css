@@ -22,7 +22,7 @@ header {
         z-index: 10;
     }
 
-    .home__page header {
+    .home__page header, .new_post_page header {
         background-image: url(../assets/two.png);
     }
 
@@ -47,7 +47,7 @@ header {
         background-size: cover;
     }
 
-    .profile__name {
+    .profile__name,.title {
         font-size: 3rem;
         font-weight: bold;
     }
@@ -135,11 +135,11 @@ header {
         min-height: 100px;
         background-color: #eaecee70;
         color: #929eaa;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        font-size: 14px;
 }
 /* Targeting both the nav button class and the new post button class */
 .nav__button.new__post__button {
